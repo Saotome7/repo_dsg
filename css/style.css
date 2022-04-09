@@ -211,19 +211,7 @@ button {
     justify-content: center;
 }
 
-/*animaciones, gradientes para el desafio*/
-.gradient__background {
-    background-image: linear-gradient(to right,rgba(4, 0, 255, 0.986), rgba(255,0,0,1));
-}
 
-.white__letters {
-    color: white;
-}
-
-a:hover {
-    color: red;
-}
- 
 
 
 @media screen and (max-width: 375px) {
