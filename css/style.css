@@ -1,6 +1,5 @@
-
-.border {
-    border: 1px solid black;
+html {
+    height: 100%;
 }
 
 header {
@@ -9,7 +8,6 @@ header {
 
 footer {
     grid-area: footer;
-    min-height: 2rem;
 }
 
 .titulo__card {
@@ -87,11 +85,12 @@ footer {
     text-align: center;
     font-weight: bolder;
     font-family: sans-serif;
-    display: grid;
+    display: flexbox;
     justify-content: center;
     background-color: #262626;
     color: #b0a99f;
     font-size: small;
+    margin-top: 50px;
 }
 
 .grid {
@@ -274,6 +273,7 @@ a:hover {
             margin: 0;
         }
     
+    /*se nececita para la seccion faq*/
         .estilo__navegacion {
                 display: grid;
                 grid-template-columns:  41px 41px 41px 41px;
@@ -294,7 +294,7 @@ a:hover {
     
         .grid {
             display: grid;
-            grid-template-columns: 180px 180px;
+            grid-template-columns: 180px;
             grid-template-rows: 400px;
             grid-column-gap: 1%;
             grid-row-gap: 1%;
@@ -425,10 +425,6 @@ a:hover {
         "nav footer footer";
         grid-template-rows:35px 25px 1fr 40px;
         grid-template-columns:0 auto 0 ; 
-        grid-row-gap: 10px;
-        grid-column-gap: 0;
-        height: 100vh;
-        margin: 0;
     }
 
     .estilo__navegacion {
@@ -451,10 +447,14 @@ a:hover {
 
     .grid {
         display: grid;
-        grid-template-columns: 220px 220px;
+        grid-template-columns: 220px;
         grid-template-rows: 400px;
         justify-content: center;
-        padding-top: 25px;
+        padding-left: 40px;
+        grid-column-gap: 1%;
+        grid-row-gap: 1%;
+
+
     }
 
     .grid__texto {
@@ -503,10 +503,8 @@ a:hover {
         "nav footer footer";
         grid-template-rows:35px 25px 1fr 40px;
         grid-template-columns:0 auto 0 ; 
-        grid-row-gap: 10px;
-        grid-column-gap: 0;
-        height: 100vh;
         margin: 0;
+        padding: 0;
     }
 
     .estilo__navegacion {
@@ -530,10 +528,10 @@ a:hover {
     .grid {
         display: grid;
         grid-template-columns: 220px 220px;
-        grid-column-gap: 3%;
-        grid-template-rows: 400px;
+        grid-column-gap: 0;
+        grid-row-gap: 2%;
         justify-content: center;
-        padding-top: 25px;
+        padding-left: 40px;
     }
 
     .grid__texto {
@@ -610,10 +608,13 @@ a:hover {
     .grid {
         display: grid;
         grid-template-columns: 220px 220px 220px;
-        grid-column-gap: 3%;
+        grid-column-gap: 0;
         grid-template-rows: 400px;
         justify-content: center;
-        padding-top: 25px;
+        grid-column-gap: 0;
+        grid-row-gap: 2%;
+        padding-left: 60px;
+       
     }
 
     .grid__texto {
@@ -696,7 +697,8 @@ a:hover {
             grid-template-columns: 220px 220px 220px;
             grid-template-rows: 400px;
             justify-content: center;
-            padding-top: 25px;
+            padding-top: 10px;
+            grid-row-gap: 2%;
         }
         
         .card1 img {
@@ -773,7 +775,8 @@ a:hover {
             grid-template-columns: 220px 220px 220px;
             grid-template-rows: 400px;
             justify-content: center;
-            padding-top: 25px;
+            padding-top: 5px;
+            grid-row-gap: 2%;
         }
         
         .card1 img {
