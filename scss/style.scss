@@ -1,0 +1,207 @@
+@import "tipografia";
+@import "medias";
+
+html {
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.boton__ajuste{
+    margin-left: 35px;
+}
+
+.titulo {
+    grid-area: titulo;
+}
+
+section#productos {
+    grid-area: productos;
+}
+
+
+.estilo__navegacion {
+    display: grid;
+    grid-template-columns:  55px   105px   110px   95px   40px   86px   86px;
+    grid-template-rows: 33px;
+    grid-column-gap: 8.5%;
+    justify-content: start;
+    align-items: center;
+    background-color:  #262626;
+    margin: 0 -10px 0 -10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color:  #262626;
+}
+
+.nav-link {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+footer {
+    display: flexbox;
+    justify-content: center;
+    background-color: #262626;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+.arreglo__texto {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    font-weight: bolder;
+    border-radius: 12px;
+    font-size: 25px;
+    border-style: hidden;
+    background-color: red;
+}
+
+.card1 {
+    background-color: black;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    padding-top: -10px;
+    border-radius: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-style: double;
+    border-color: red;
+}
+
+.card2 {
+    background-color: black;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    padding-top: -10px;
+    border-radius: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-style: double;
+    border-color: red;
+}
+
+.card3 {
+    background-color: black;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    padding-top: -10px;
+    border-radius: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-style: double;
+    border-color: red;
+}
+
+.card1 img {
+    width: 190px;
+    height: 150px;
+}
+
+.card2 img {
+    width: 190px;
+    height: 150px;
+}
+
+.card3 img {
+    width: 190px;
+    height: 150px;
+}
+
+.grid__texto {
+    display: grid;
+    grid-template-columns: 110px;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.grid__legales {
+    display: grid;
+    grid-template-columns: 65px;
+    grid-template-rows: 20px;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 300px;
+    justify-content: center;
+}
+
+.fielset__arreglo {
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid;
+    margin-bottom: 28px;
+}
+
+.grid__gif {
+    display: grid;
+    grid-template-columns: 1280px;
+    grid-template-rows: 460px;
+    justify-content: center;
+}
+
+/*animaciones, gradientes para el desafio*/
+.gradient__background {
+    background-image: linear-gradient(to right,rgba(4, 0, 255, 0.986), rgba(255,0,0,1));
+}
+
+.white__letters {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav-link:hover {
+    color: red;
+}
+ 
+
+
